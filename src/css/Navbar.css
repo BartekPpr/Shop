@@ -1,0 +1,46 @@
+nav{
+    font-size: 2em;
+    padding: 15px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    
+}
+.Parent{
+    display: flex;   
+    gap: 7em;
+    font-weight: bold;
+}
+h1{
+    border-right: solid 3px rgb(78, 2, 136);
+    padding: 10px;
+}
+.brandName{
+    text-decoration: none;
+    color: black;
+}
+hr{
+    height: 1px;
+    border: none;
+    background-color: black;
+}
+.viewCart{
+  padding: 15px;
+  text-decoration: none;
+  background-color: #00d2ff; 
+  color: #050505; 
+  font-weight: bold;
+  box-shadow: 0 0 8px #00d2ff;
+  transition: box-shadow 0.5s ease;
+  border-radius: 15px;
+  margin-right: 40px;
+  
+}
+.viewCart:hover {
+  box-shadow: 0 0 20px #00d2ff, 0 0 30px #00d2ff;
+}
+.aPadding{
+    padding-right: 20px;
+}
